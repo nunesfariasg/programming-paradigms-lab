@@ -48,6 +48,11 @@ Topics:
 Treats computation primarily as the evaluation of functions and emphasizes
 immutability and the composition of operations.
 
+The selected languages were chosen because they provide representative 
+environments for studying each paradigm. The goal is not to achieve proficiency 
+in all languages, but to learn enough of each language to understand and 
+experiment with its programming model.
+
 Topics:
 
 - Pure functions
