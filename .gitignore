@@ -1,33 +1,69 @@
-# =========================
-# IntelliJ IDEA
-# =========================
-.idea/
-*.iml
+# ==============================
+# C
+# ==============================
 
-# =========================
-# Compiled Java classes
-# =========================
+# Compiled executables
+*.out
+*.exe
+
+# Object files
+*.o
+
+# Debug files
+*.dSYM/
+*.gdb
+
+
+# ==============================
+# Java
+# ==============================
+
+# Compiled bytecode
 *.class
 
-# =========================
 # Build directories
-# =========================
-out/
 target/
-build/
+out/
 
-# =========================
-# Logs
-# =========================
-*.log
+# IDE files
+.idea/
+*.iml
+.vscode/
 
-# =========================
-# Operating System
-# =========================
+
+# ==============================
+# Haskell
+# ==============================
+
+# Cabal build artifacts
+dist/
+dist-newstyle/
+
+# GHC generated files
+*.hi
+*.o
+
+
+# ==============================
+# Prolog
+# ==============================
+
+# Prolog compiled/index files
+*.qlf
+*.po
+*.idx
+
+
+# ==============================
+# General
+# ==============================
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# =========================
-# VS Code (optional)
-# =========================
-.vscode/
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
